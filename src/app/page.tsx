@@ -157,7 +157,7 @@ export default function DataTableManager() {
         <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
           <h2>Dynamic Data Table Manager</h2>
           <Button onClick={() => setThemeMode(themeMode === 'light' ? 'dark' : 'light')}>
-            Toggle {themeMode === 'light' ? '🌙 Dark' : '☀️ Light'}
+            Toggle {themeMode === 'light' ? ' Dark' : ' Light'}
           </Button>
         </Box>
 
